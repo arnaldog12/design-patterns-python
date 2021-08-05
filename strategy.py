@@ -38,6 +38,4 @@ class PayPal(PaymentStrategy):
 
 cart = ShoppingCart(["item 1", "item 2", "item 3"])
 cart.pay(CreditCart("Arnaldo", "1111.2222.3333.4444", "000", "2100/01/01"))
-cart.pay(PayPal("arnaldo.gualberto@wildlifestudios.com", "1234"))
-
-
+cart.pay(PayPal("arnaldo@email.com", "1234"))
